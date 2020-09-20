@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>AutoClicker</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>300</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="addMenu">
+    <property name="title">
+     <string>Main</string>
+    </property>
+    <addaction name="actionAdd"/>
+    <addaction name="actionPlay"/>
+    <addaction name="actionStop"/>
+   </widget>
+   <addaction name="addMenu"/>
+  </widget>
+  <action name="actionAddMeni">
+   <property name="text">
+    <string>AddMenu</string>
+   </property>
+  </action>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionPlay">
+   <property name="text">
+    <string>Play</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionStop">
+   <property name="text">
+    <string>Stop</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionUpload">
+   <property name="text">
+    <string>Upload</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
